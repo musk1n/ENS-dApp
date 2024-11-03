@@ -1,27 +1,52 @@
-[Deployed link](https://learn-web3-d-app.vercel.app/)
+# ENS DApp
 
+[Deployed Link](https://learn-web3-d-app.vercel.app/)
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is an **Ethereum Name Service (ENS)** decentralized application (dApp) built using [Next.js](https://nextjs.org/) and [Solidity](https://soliditylang.org/). It allows users to register and manage their Ethereum domain names easily.
+
+## Features
+- Connects to Ethereum wallets (e.g., MetaMask) using RainbowKit.
+- Displays the user's ENS name or wallet address.
+- User-friendly interface to interact with ENS functionality.
+- Responsive design for optimal viewing on various devices.
+
+##Technologies Used
+- Next.js: A React framework for building server-side rendered applications.
+- React: A JavaScript library for building user interfaces.
+- RainbowKit: A library for wallet connection and management.
+- Wagmi: A React hooks library for Ethereum.
+- Tailwind CSS: A utility-first CSS framework for styling.
+- Ethereum Sepolia Testnet: For testing ENS functionality.
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/musk1n/ENS-dApp
+   cd ENS-dApp
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+4. Open your browser and navigate to http://localhost:3000 to see the application in action.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
